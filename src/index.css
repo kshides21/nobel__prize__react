@@ -769,6 +769,10 @@ FORMATING
 
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
 @media (max-width: 768px) {
+  select {
+    width: 180px;
+  }
+
   .nav__links {
     display: none;
   }
