@@ -770,9 +770,14 @@ FORMATING
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
 @media (max-width: 768px) {
   select {
-    max-width: 120px;
-    min-width: 120px;
-    margin-right: 40px;
+    max-width: 240px;
+    min-width: 240px;
+    margin: 24px;
+  }
+
+  .body__header--wrapper {
+    flex-direction: column;
+    justify-content: center;
   }
 
   .nav__links {
@@ -795,6 +800,7 @@ FORMATING
 
   .section__sub-title {
     font-size: 28px;
+    margin: 8px;
   }
 
   .input__wrapper {
@@ -840,7 +846,10 @@ FORMATING
   }
   .toggle__wrapper {
     flex-direction: column;
-    gap: 8px;
+    margin: 24px;
+    max-width: 140px;
+    justify-content: center;
+    align-items: center;
   }
 
   .main__container {
@@ -873,13 +882,16 @@ FORMATING
 
   .skeleton__loading--wrapper {
   flex-direction: column;
-  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .skeleton__loading--box,
 .skeleton__loading--img {
-  width: 450px;
-  margin-bottom: 40px;
+  width: 250px;
+    padding: 40px;
+    margin: 40px;
+    height: 250px;
 }
 
 }
